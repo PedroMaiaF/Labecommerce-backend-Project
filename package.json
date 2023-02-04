@@ -4,7 +4,9 @@
   "description": "Projeto Labecommerce-Backend",
   "main": "index.js",
   "scripts": {
-    "start": "node ./build/index.js"
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/index.ts"
   },
   "repository": {
     "type": "git",
