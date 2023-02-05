@@ -14,18 +14,18 @@ export type TProductsDB = {
     id: string,
     name: string,
     price: number,
-    description: string,
     category: CATEGORIES,    
+    description: string,
     image_url: string
 }
 
 export type TPurchasesDB = {
     id: string,
-    buyer_id: string,
     total_price: number,
-    delivered_at: string,
-    created_at: string
     paid: number,
+    delivered_at: string,
+    buyer_id: string,
+    created_at: string
 }
 
 export type TPurchasesProductsDB = {
